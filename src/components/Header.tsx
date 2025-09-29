@@ -10,7 +10,11 @@ export default function Header() {
             {/* Logo */}
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
-                <img src="/src/assets/white-logo.png" className="h-16" alt="" />
+                <img
+                  src="./src/assets/white-logo.png"
+                  className="h-16"
+                  alt=""
+                />
                 <div className="text-white font-bold text-lg"></div>
               </div>
             </div>
