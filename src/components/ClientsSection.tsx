@@ -1,42 +1,28 @@
-import hdfcLogo from "/assets/hdfc-bank-seeklogo.png";
-import kotakLogo from "/assets/kotak-mahindra-bank-seeklogo.png";
-import swiggyLogo from "/assets/swiggy-seeklogo.png";
-import zomatoLogo from "/assets/zomato-seeklogo.png";
-import axisLogo from "/assets/axis-bank-seeklogo.png";
-import oyoLogo from "/assets/oyo-rooms-seeklogo.png";
-import olaLogo from "/assets/ola-seeklogo.png";
-import boatLogo from "/assets/boat-seeklogo.png";
-import bandhanLogo from "/assets/bandhan-bank-seeklogo.png";
-import tataLogo from "/assets/tata-1mg-seeklogo.png";
-import urbanLogo from "/assets/urban-company-seeklogo.png";
-
-
 export default function ClientsSection() {
   const clients = [
     {
       id: 1,
       name: "Kotak Mahindra Bank",
-      // 2. Use the imported variable instead of the string path
-      logo: kotakLogo,
+      logo: "src/assets/kotak-mahindra-bank-seeklogo.png",
     },
-    { id: 2, name: "OYO", logo: oyoLogo },
-    { id: 3, name: "HDFC Bank", logo: hdfcLogo },
-    { id: 4, name: "Axis Bank", logo: axisLogo },
-    { id: 5, name: "Zomato", logo: zomatoLogo },
-    { id: 6, name: "Swiggy", logo: swiggyLogo },
+    { id: 2, name: "OYO", logo: "/assets/oyo-rooms-seeklogo.png" },
+    { id: 3, name: "HDFC Bank", logo: "/assets/hdfc-bank-seeklogo.png" },
+    { id: 4, name: "Axis Bank", logo: "/assets/axis-bank-seeklogo.png" },
+    { id: 5, name: "Zomato", logo: "/assets/zomato-seeklogo.png" },
+    { id: 6, name: "Swiggy", logo: "/assets/swiggy-seeklogo.png" },
     {
       id: 7,
       name: "Bandhan Bank",
-      logo: bandhanLogo,
+      logo: "/assets/bandhan-bank-seeklogo.png",
     },
-    { id: 8, name: "OLA", logo: olaLogo },
-    { id: 9, name: "TATA 1MG", logo: tataLogo },
+    { id: 8, name: "OLA", logo: "/assets/ola-seeklogo.png" },
+    { id: 9, name: "TATA 1MG", logo: "/assets/tata-1mg-seeklogo.png" },
     {
       id: 10,
       name: "Urban Company",
-      logo: urbanLogo,
+      logo: "/assets/urban-company-seeklogo.png",
     },
-    { id: 11, name: "boAt", logo: boatLogo },
+    { id: 11, name: "boAt", logo: "/assets/boat-seeklogo.png" },
   ];
 
   const doubledClients = [...clients, ...clients];
