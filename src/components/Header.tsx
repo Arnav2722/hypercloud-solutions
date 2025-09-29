@@ -1,4 +1,4 @@
-import { Facebook, Twitter, Linkedin, Cloud } from "lucide-react";
+import { Facebook, Twitter, Linkedin } from "lucide-react";
 
 export default function Header() {
   return (
@@ -11,7 +11,7 @@ export default function Header() {
             <div className="flex items-center">
               <div className="flex items-center space-x-2">
                 <img
-                  src="./src/assets/white-logo.png"
+                  src="/assets/white-logo.png"
                   className="h-16"
                   alt=""
                 />
