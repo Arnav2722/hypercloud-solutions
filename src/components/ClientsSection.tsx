@@ -3,26 +3,26 @@ export default function ClientsSection() {
     {
       id: 1,
       name: "Kotak Mahindra Bank",
-      logo: "/src/assets/kotak-mahindra-bank-seeklogo.png",
+      logo: "src/assets/kotak-mahindra-bank-seeklogo.png",
     },
-    { id: 2, name: "OYO", logo: "/src/assets/oyo-rooms-seeklogo.png" },
-    { id: 3, name: "HDFC Bank", logo: "/src/assets/hdfc-bank-seeklogo.png" },
-    { id: 4, name: "Axis Bank", logo: "/src/assets/axis-bank-seeklogo.png" },
-    { id: 5, name: "Zomato", logo: "/src/assets/zomato-seeklogo.png" },
-    { id: 6, name: "Swiggy", logo: "/src/assets/swiggy-seeklogo.png" },
+    { id: 2, name: "OYO", logo: "src/assets/oyo-rooms-seeklogo.png" },
+    { id: 3, name: "HDFC Bank", logo: "src/assets/hdfc-bank-seeklogo.png" },
+    { id: 4, name: "Axis Bank", logo: "src/assets/axis-bank-seeklogo.png" },
+    { id: 5, name: "Zomato", logo: "src/assets/zomato-seeklogo.png" },
+    { id: 6, name: "Swiggy", logo: "src/assets/swiggy-seeklogo.png" },
     {
       id: 7,
       name: "Bandhan Bank",
-      logo: "/src/assets/bandhan-bank-seeklogo.png",
+      logo: "src/assets/bandhan-bank-seeklogo.png",
     },
-    { id: 8, name: "OLA", logo: "/src/assets/ola-seeklogo.png" },
-    { id: 9, name: "TATA 1MG", logo: "/src/assets/tata-1mg-seeklogo.png" },
+    { id: 8, name: "OLA", logo: "src/assets/ola-seeklogo.png" },
+    { id: 9, name: "TATA 1MG", logo: "src/assets/tata-1mg-seeklogo.png" },
     {
       id: 10,
       name: "Urban Company",
-      logo: "/src/assets/urban-company-seeklogo.png",
+      logo: "src/assets/urban-company-seeklogo.png",
     },
-    { id: 11, name: "boAt", logo: "/src/assets/boat-seeklogo.png" },
+    { id: 11, name: "boAt", logo: "src/assets/boat-seeklogo.png" },
   ];
 
   const doubledClients = [...clients, ...clients];
